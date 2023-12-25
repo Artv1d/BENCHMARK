@@ -157,6 +157,6 @@ SELECT "passenger_count", STRFTIME('%Y', "tpep_pickup_datetime"), ROUND("trip_di
 
 
 ## Сравнение времени работы библиотек ##
-![Графики сравнения времени](https://drive.google.com/file/d/1e9l5MqLexYXvAVI-4KC3A2aZK07UaC7v/view?usp=drive_link)
+![Графики сравнения времени](https://github.com/Artv1d/BENCHMARK/blob/main/diagram.png)
 
 Дольше всех отрабатывал Sqlite3, а быстрее Duckdb. 4 запрос оказался самым долгим и потратил достаточно времени у всех библиотек. 
